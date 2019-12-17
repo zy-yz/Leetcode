@@ -6,6 +6,8 @@ import java.util.Map;
 /**
  * @author zhaoyu
  */
+
+  //给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
 public class LengthOfLongestSubstring {
     //定义一个map数据结构存储,其中key为字符，value为字符位置加一，加一表示字符位置后一个不重复
     //定义不重复子串的位置为start,结束位置为end
