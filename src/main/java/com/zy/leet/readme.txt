@@ -2,3 +2,9 @@
 2.两数相加，(链表) Solution
 3.无重复字符的最长子串:lengthOfLongestSubstring
 *4.寻找两个有序数组的中位数findMedianSortedArrays ***(标准答案，暂时想不到，哈哈哈)
+5查找最长回文子串longestPalindrome
+6将一个字符串排成Z字形Convert
+7整数反转reverse
+8字符串转换整数 (atoi)myAtoi
+9判断是不是回文数isPalindrome
+11盛最多水的容器maxArea
