@@ -8,3 +8,6 @@
 8字符串转换整数 (atoi)myAtoi
 9判断是不是回文数isPalindrome
 11盛最多水的容器maxArea
+12整数转罗马数字intToRoman
+13罗马数字转整数romanToInt
+14最长公共前缀LongestCommonPrefix
