@@ -12,3 +12,6 @@
 13罗马数字转整数romanToInt
 14最长公共前缀LongestCommonPrefix
 15三数之和ThreeSum
+16. 最接近的三数之和ThreeSumNear
+17.电话号码的字母组合letterCombinations
+18. 四数之和FourSum
