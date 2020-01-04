@@ -15,3 +15,5 @@
 16. 最接近的三数之和ThreeSumNear
 17.电话号码的字母组合letterCombinations
 18. 四数之和FourSum
+19删除链表的倒数第N个节点removeNthFromEnd
+20. 有效的括号isValid
