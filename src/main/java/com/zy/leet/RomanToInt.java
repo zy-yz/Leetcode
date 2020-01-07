@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class RomanToInt {
     public static int romanToInt(String s) {
-        Map<String, Integer> map = new HashMap<String,Integer>();
+        Map<String, Integer> map = new HashMap<String, Integer>();
         map.put("I", 1);
         map.put("IV", 4);
         map.put("V", 5);
@@ -21,13 +21,13 @@ public class RomanToInt {
         map.put("M", 1000);
 
         int ans = 0;
-        for(int i = 0;i < s.length();) {
-            if(i + 1 < s.length() && map.containsKey(s.substring(i, i+2))) {
-                ans += map.get(s.substring(i, i+2));
+        for (int i = 0; i < s.length(); ) {
+            if (i + 1 < s.length() && map.containsKey(s.substring(i, i + 2))) {
+                ans += map.get(s.substring(i, i + 2));
                 i += 2;
             } else {
-                ans += map.get(s.substring(i, i+1));
-                i ++;
+                ans += map.get(s.substring(i, i + 1));
+                i++;
             }
         }
         return ans;

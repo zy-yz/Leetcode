@@ -18,3 +18,4 @@
 19删除链表的倒数第N个节点removeNthFromEnd
 20. 有效的括号isValid
 21. 合并两个有序链表mergeTwoLists
+22.括号生成generateParenthesis

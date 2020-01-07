@@ -11,10 +11,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Description: 
+ * @Description:
  * @Email: 1090712762@qq.com
  * @Author: Rattan Pepper
- * @Date: 2019/12/15 
+ * @Date: 2019/12/15
  */
 public class Solution {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -44,6 +44,7 @@ public class Solution {
     public static class ListNode {
         int val;
         ListNode next;
+
         ListNode(int x) {
             val = x;
         }

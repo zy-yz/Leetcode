@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public class LetterCombinations {
-    static Map<String,String> phone = new HashMap<String, String>(){{
+    static Map<String, String> phone = new HashMap<String, String>() {{
         put("2", "abc");
         put("3", "def");
         put("4", "ghi");
@@ -16,23 +16,24 @@ public class LetterCombinations {
         put("8", "tuv");
         put("9", "wxyz");
     }};
-   static  List<String> output = new ArrayList<String>();
+    static List<String> output = new ArrayList<String>();
 
-    public static void backtrack(String combination,String next_digits){
-        if(next_digits.length() == 0){
+    public static void backtrack(String combination, String next_digits) {
+        if (next_digits.length() == 0) {
             output.add(combination);
-        }else {
-            String digit = next_digits.substring(0,1);
+        } else {
+            String digit = next_digits.substring(0, 1);
             String letters = phone.get(digit);
-            for(int i=0;i<letters.length();i++){
-                String letter = phone.get(digit).substring(i,i+1);
-                backtrack(combination + letter,next_digits.substring(1));
+            for (int i = 0; i < letters.length(); i++) {
+                String letter = phone.get(digit).substring(i, i + 1);
+                backtrack(combination + letter, next_digits.substring(1));
             }
         }
     }
-    public static List<String> letterCombinations(String digits){
-        if(digits.length() != 0) {
-            backtrack("",digits);
+
+    public static List<String> letterCombinations(String digits) {
+        if (digits.length() != 0) {
+            backtrack("", digits);
         }
         return output;
     }

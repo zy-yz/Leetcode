@@ -1,0 +1,6 @@
+
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ÑÏÍ8í±ÜŒö-
+usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(“®öÃþÿÿÿÿ8ŽÀâŒö-
+osquid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÆ &8í±ÜŒö-
+{
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.( Ììëÿÿÿÿÿ8òºØŒö-

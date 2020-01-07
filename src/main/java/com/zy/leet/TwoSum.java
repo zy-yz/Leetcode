@@ -5,21 +5,21 @@ import java.util.Map;
 
 public class TwoSum {
     public static void main(String[] args) {
-        int[] i = {1,2,3,4,5};
-        twoSum(i,5);
-        twoSum1(i,5);
-        twoSum2(i,5);
+        int[] i = {1, 2, 3, 4, 5};
+        twoSum(i, 5);
+        twoSum1(i, 5);
+        twoSum2(i, 5);
 
     }
 
     //方法一：暴力法
     //暴力法很简单，遍历每个元素 xx，并查找是否存在一个值与 target - xtarget−x 相等的目标元素。
     public static int[] twoSum(int[] nums, int target) {
-        for(int i = 0;i<nums.length;i++){
-            for (int j = i+1;j<nums.length;j++){
-                if(nums[j] == target - nums[i]){
-                    System.out.println(nums[i] +"+"+nums[j]);
-                     return new int[] { i, j };
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[j] == target - nums[i]) {
+                    System.out.println(nums[i] + "+" + nums[j]);
+                    return new int[]{i, j};
                 }
             }
         }
@@ -34,16 +34,16 @@ public class TwoSum {
     // 在哈希表中进行查找的用时应当被摊销为 O(1)O(1)。
     //一个简单的实现使用了两次迭代。在第一次迭代中，我们将每个元素的值和它的索引添加到表中。然后，在第二次迭代中，
     // 我们将检查每个元素所对应的目标元素（target - nums[i]target−nums[i]）是否存在于表中。注意，该目标元素不能是 nums[i]nums[i] 本身！
-    public static int[] twoSum1(int[] nums,int target){
-        Map<Integer,Integer> map = new HashMap<Integer, Integer>();
-        for(int i=0;i<nums.length;i++){
-            map.put(nums[i],i);
+    public static int[] twoSum1(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        for (int i = 0; i < nums.length; i++) {
+            map.put(nums[i], i);
         }
-        for(int i=0;i<nums.length;i++){
-            int complement = target -nums[i];
-            if(map.containsKey(complement) && map.get(complement)!= i){
-                System.out.println(nums[i] +"+"+nums[map.get(complement)]);
-                return new int[] {i,map.get(complement)};
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement) && map.get(complement) != i) {
+                System.out.println(nums[i] + "+" + nums[map.get(complement)]);
+                return new int[]{i, map.get(complement)};
             }
         }
         throw new IllegalArgumentException("No two sum solution");
@@ -59,8 +59,8 @@ public class TwoSum {
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
             if (map.containsKey(complement)) {
-                System.out.println(nums[map.get(complement)]+"+"+nums[i]);
-                return new int[] { map.get(complement), i };
+                System.out.println(nums[map.get(complement)] + "+" + nums[i]);
+                return new int[]{map.get(complement), i};
             }
             map.put(nums[i], i);
         }

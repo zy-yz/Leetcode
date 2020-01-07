@@ -1,6 +1,6 @@
 package com.zy.leet.test;
 
-public class IdTime{
+public class IdTime {
 
     private long workerId;
     private long datacenterId;
