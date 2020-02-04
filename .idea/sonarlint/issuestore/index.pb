@@ -47,3 +47,11 @@ c
 -src/main/java/com/zy/leet/twenty/IsValid.java,b/a/ba1f433626d0de6260e89bcc69ddda30b4ba1212
 c
 3src/main/java/com/zy/leet/twenty/MergeTwoLists.java,1/a/1a4c9bc3dd4776867f537d0fbdb21f0d6a4db77e
+i
+9src/main/java/com/zy/leet/twenty/GenerateParenthesis.java,2/e/2e264f82d86310b85f3170d6cf694a8d04b2636b
+a
+1src/main/java/com/zy/leet/twenty/MergeKLists.java,a/7/a70b98ff9b1eac2002525b7af5fe688101e7f900
+_
+/src/main/java/com/zy/leet/twenty/SwapPairs.java,f/0/f089cd2bfaa4cb1c6245e5421eb11aa95f118c5d
+c
+3src/main/java/com/zy/leet/twenty/ReverseKGroup.java,3/9/391ddd1e21d0a794b0baaacad5dc96f53b730d86

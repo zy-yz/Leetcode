@@ -20,3 +20,5 @@
 21. 合并两个有序链表mergeTwoLists
 22.括号生成generateParenthesis
 23. 合并K个排序链表mergeKLists
+24两两交换链表中的节点swapPairs
+25. K 个一组翻转链表reverseKGroup

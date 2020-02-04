@@ -1,6 +1,6 @@
 
-wsquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÑµÝÈ8Ñåñ¦÷-
-wsquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ææˆ·8­Îæ¦÷-
-Jsquid:S3599",Use another way to initialize this instance.(ææˆ·8­Îæ¦÷-
-\squid:S4973"9Use the "equals" method if value comparison was intended.(€£ºçøÿÿÿÿ8Ñåñ¦÷-
-Jsquid:S3599",Use another way to initialize this instance.(ÑµÝÈ8Ñåñ¦÷-
+Jsquid:S3599",Use another way to initialize this instance.(ææˆ·8­Îæ¦÷-
+\squid:S4973""9Use the "equals" method if value comparison was intended.(€£ºçøÿÿÿÿ8Ñåñ¦÷-
+wsquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ææˆ·8­Îæ¦÷-
+wsquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(Ø“œÕ8­ÕÕÜ÷-
+Jsquid:S3599",Use another way to initialize this instance.(Ø“œÕ8­ÕÕÜ÷-
