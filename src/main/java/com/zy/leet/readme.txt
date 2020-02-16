@@ -22,3 +22,6 @@
 23. 合并K个排序链表mergeKLists
 24两两交换链表中的节点swapPairs
 25. K 个一组翻转链表reverseKGroup
+26删除排序数组中的重复项 RemoveDuplicates
+27. 移除元素RemoveElement
+28实现 strStr()
