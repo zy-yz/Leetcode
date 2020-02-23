@@ -57,3 +57,9 @@ c
 3src/main/java/com/zy/leet/twenty/ReverseKGroup.java,3/9/391ddd1e21d0a794b0baaacad5dc96f53b730d86
 ]
 -src/main/java/com/zy/leet/test/Snowflake.java,0/6/06f77488b17768e429d20a5b38a7400aa9df4ace
+f
+6src/main/java/com/zy/leet/twenty/RemoveDuplicates.java,3/d/3def5c8f347df875b34b3db03df2bf6c52eafaad
+c
+3src/main/java/com/zy/leet/twenty/RemoveElement.java,d/a/da34419f38bcc49b47b5772c710c3c7d9b191c4b
+\
+,src/main/java/com/zy/leet/twenty/StrStr.java,0/0/001755195f562cf8327b1276c17753169628f135
