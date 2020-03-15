@@ -33,6 +33,7 @@ public class BitMapTest {
     public void set1(int num){
         //确定数组 index
         int arrayIndex = num >> 5;
+        System.out.println(arrayIndex);
         //确定 bit index
         int bitIndex = num & 31;
         //设置0
@@ -71,7 +72,7 @@ public class BitMapTest {
     }
 
     public static void main(String[] args) {
-        int[] arrays = new int[] {1,2,35,78,334,335,555,577};
+        int[] arrays = new int[] {1,2,3,35,78,334,335,555,577};
         BitMapTest bitMapTest =new BitMapTest(577 -1);
         for (int i : arrays){
             bitMapTest.set1(i);
