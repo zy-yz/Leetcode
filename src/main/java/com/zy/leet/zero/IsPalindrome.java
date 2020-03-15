@@ -1,4 +1,4 @@
-package com.zy.leet;
+package com.zy.leet.zero;
 
 public class IsPalindrome {
 
