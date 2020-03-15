@@ -7,6 +7,7 @@ package com.zy.leet.字符串;
  * 2.变量不需要与其他的状态变量共同参与不变约束*/
 
 
+import java.util.HashMap;
 
 /**volatile特性
  * 1.保证变量在线程之间的可⻅性。可⻅性的保证是基于CPU的内存屏障指令，被JSR-133抽象
@@ -20,6 +21,7 @@ public class VolatileTest {
     volatile static int end = 6;
 
     public static void main(String[] args) {
+        HashMap s = new HashMap();
         for(int i=0;i<10;i++){
             new Thread(
                     new Runnable() {
