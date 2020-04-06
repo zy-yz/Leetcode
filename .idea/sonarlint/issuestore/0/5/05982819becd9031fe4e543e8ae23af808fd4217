@@ -4,3 +4,4 @@ squid:S135"YReduce the total number of break and continue statements in this l
 psquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 43 to the 15 allowed.(ÅÆúœ8ìŒ†÷-
 u
 squid:S135'"YReduce the total number of break and continue statements in this loop to use at most one.(áÊïF8«††÷-
+wsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(°ÛÊå8¬Ú¦‰.
