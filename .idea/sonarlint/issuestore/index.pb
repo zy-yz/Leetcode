@@ -99,3 +99,13 @@ d
 4src/main/java/com/zy/leet/jdk/LinkedHashMapTest.java,c/7/c71cf912bbfd110f6d478f035b4dbeb77b5006de
 c
 3src/main/java/com/zy/leet/并发/LazySingleton.java,c/d/cdeec1c4d8442ac6185cd4de321736672842bdce
+[
++src/main/java/com/zy/leet/jdk/HeapTest.java,f/c/fce435d966bd1fd067317d4d2078f716d3762dd5
+W
+'src/main/java/com/zy/leet/jdk/User.java,e/0/e063134c9cf378566e4817bfb531793c35aa96f8
+e
+5src/main/java/com/zy/leet/jdk/VolatileAtomicTest.java,3/0/302a03b66b6461eadddf39baec9f73fcfd7e16b5
+e
+5src/main/java/com/zy/leet/jdk/VolatileVisibiTest.java,e/9/e9b0e2a44d6e1806981df628a872cd9a93430495
+_
+/src/main/java/com/zy/leet/jdk/StackAndHeap.java,8/8/88939ec59d6f475869468a7fb883ca87402b9e6b

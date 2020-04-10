@@ -53,6 +53,7 @@ public class LazySingleton {
     }
 
     Lock lock = new ReentrantLock();
+
     public  void increaseLock(){
         lock.lock();
         try {
@@ -63,6 +64,22 @@ public class LazySingleton {
 
     }
 
+    /**
+     * CAS 比较并交换
+     * CAS需要的三个操作数，内存地址V,就得预期值A，即将要更新的目标值B
+     * CAS指令执行时，当且仅当内存地址V的值与预期值A相等时，将内存地址V的值修改为B，否则什么都不做，这是一个原子操作
+     *
+     *CAS缺点：
+     *     1.循环的时候开销大
+     *         getAndAddInt方法执行时，如果CAS失败，会一直进行尝试。如果CAS长时间一直不成功，可能会给CPU带来很大的开销
+     *     2.只能保证一个共享变量的原子操作
+     *         当对一个共享变量执行操作时，我们可以使用循环CAS的方式来保证原子操作，但是对多个共享变量操作时，
+     *         循环CAS就无法保证操作的原子性，这个时候就可以用锁来保证原子性
+     *     3.ABA问题
+     *         如果内存地址V初次读取的值是A，并且在准备赋值的时候检查到它的值任然是A
+     *             如果这段期间的值改变成了B，然后又改回了A，那CAS操作就会误认为他没有改变过。
+     *
+     * */
     public AtomicInteger inc2 = new AtomicInteger();
     public  void increaseAto() {
         inc2.getAndIncrement();
@@ -90,6 +107,7 @@ public class LazySingleton {
         {
             Thread.yield();
         }
+        Thread.currentThread().getThreadGroup().list();
         System.out.println("-------------");
         System.out.println(test.inc);
         System.out.println(test.inc1);
