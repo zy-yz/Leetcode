@@ -1,4 +1,4 @@
-package com.zy.leet.并发;
+package com.zy.leet.并发.volatil;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Lock;
